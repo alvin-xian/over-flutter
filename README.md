@@ -4,13 +4,12 @@
 
 书籍：
 - [《Flutter技术入门与实战》](https://item.jd.com/12526484.html)：笔者给与星级为3.5星，可以作为入门
-- [《Dart编程语言》](https://item.jd.com/12108983.html)：笔者给与三星评价，因为实在过于基础，但是较之国内的《Dart程序设计语言》要好上很多倍，推荐阅读英文原文
+
 - [Flutter实战](https://book.flutterchina.club/)：短小精悍的电子书
 - [flutter-go示例](https://github.com/alibaba/flutter-go):github上 140+ flutter组件的demo 
 - [flutter项目源码](https://github.com/CarGuo/GSYGithubAppFlutter)：涵盖了移动开发90%左右常见的功能
 - [flutterchina/dio](https://github.com/flutterchina/dio):flutter中文社区开源的web框架
 - [flutter_boost](https://github.com/alibaba/flutter_boost):闲鱼开源的flutter与java绑定插件
-- [dart语法学习](https://www.jianshu.com/p/9e5f4c81cc7d):简书博客
 
 ## 网址
 - [flutter官网](https://flutter.dev/)
