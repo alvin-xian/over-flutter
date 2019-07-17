@@ -1,9 +1,10 @@
 ## 一 flutter简介  
 
-flutter是谷歌开源的移动UI框架，用于在iOS和Andorid上构建高质量的**原生**用户界面。flutter基于谷歌开发的dart语言构建。  
+flutter是基于Dart语言开发的一款框架，用于构建iOS和Andoid等平台的UI，其生成的UI是高质量的**原生**用户界面 
 
 博主认为的flutter最大卖点：
-- 跨平台：其跨平台完全不同于当前的两种成熟实现方式：ionic（移动端内嵌chrome），reactnative（js桥接，将前端view生成为原生view），flutter由自己实现GDI，GPU渲染：使用GPU渲染方式，官方说法是可达120fps。
+- 跨平台：其跨平台完全不同于当前的两种成熟实现方式：ionic（移动端内嵌chrome），reactnative（js桥接，将前端view生成为原生view），flutter使用GPU渲染方式，完全由自己实现GDI，官方说法是可达120fps
+- 热重载：修改源码，无需编译，保存后直接就能在模拟器中查看修改结果，这能极大提升开发效率
 
 ## 二 fluttter环境安装
 
