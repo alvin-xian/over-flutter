@@ -6,7 +6,7 @@
 - [flutter中文网](https://flutterchina.club/)
 
 **书籍**：
-- [《Flutter技术入门与实战》](https://item.jd.com/12526484.html)：笔者给与星级为3.5星，可以作为入门
+- [《Flutter技术入门与实战》](https://item.jd.com/12526484.html)：可以作为入门
 - [Flutter实战](https://book.flutterchina.club/)：短小精悍的电子书
 
 **源码**：
