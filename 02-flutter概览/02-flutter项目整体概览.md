@@ -2,20 +2,20 @@
 
 在01章节新建的flutter基础项目中，由于是AS帮助创建的，我们将/lib目录下的`main.dart`内容修改为一个HelloWorld项目：
 ```dart
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';             // 导包
 
-void main() => runApp(MyApp());
+void main() => runApp(MyApp());                     // 入口函数
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget {               // 应用继承自无状态组件
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+  Widget build(BuildContext context) {              // 返回一个组件
+    return MaterialApp(                              // 返回 MaterialApp 这个组件
       title: 'Hello Wolrd!',
-      home: Scaffold(
-        appBar: AppBar(
+      home: Scaffold(                               // home是窗口的主体，可以使用脚手架组件Scaffold搭建内容
+        appBar: AppBar(   
           title: Text('Welcome to flutter!'),
         ),
-        body: Center(
+        body: Center(                               // Center是个布局组件
           child: Text('World news!'),
         ),
       ),
@@ -27,6 +27,16 @@ class MyApp extends StatelessWidget {
 执行AS的run，即可展示helloworld项目。
 
 ## 二 HellowWorld程序整体概览
+
+#### 2.0 目录介绍
+
+helloworld项目截图：
+![](../images/02-01.png)  
+
+常用文件与目录：
+- lib：flutter应用目录，工程代码放在此处
+- ios/android：flutter与原生交互时代码目录
+- pubspec.yaml：项目依赖文件
 
 #### 2.1 入口文件
 

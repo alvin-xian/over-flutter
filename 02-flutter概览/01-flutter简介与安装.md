@@ -1,10 +1,33 @@
 ## 一 flutter简介  
 
+#### 1.1 flutter特点
+
 flutter是基于Dart语言开发的一款框架，用于构建iOS和Andoid等平台的UI，其生成的UI是高质量的**原生**用户界面 
 
 博主认为的flutter最大卖点：
 - 跨平台：其跨平台完全不同于当前的两种成熟实现方式：ionic（移动端内嵌chrome），reactnative（js桥接，将前端view生成为原生view），flutter使用GPU渲染方式，完全由自己实现GDI，官方说法是可达120fps
 - 热重载：修改源码，无需编译，保存后直接就能在模拟器中查看修改结果，这能极大提升开发效率
+
+#### 1.2 flutter架构
+
+flutter基本框架：flutter框架包含两层，分别是框架层（Framework），引擎层（Engine），如图所示：  
+
+![](../images/02-00.png)  
+
+框架层：由Dart语言编写，提供了大量的API供开发者开发项目，包如下主要功能：
+- Material：Material Design风格组件
+- Cupertino：针对iOS风格的组件
+- Widgets：核心组件
+- Rendering：渲染
+- Animation：动画
+- Painting：绘制
+- Gestures：手势
+- Foundation：基础库
+
+引擎层：由C++语言编写，包含以下三个部分：
+- Skia：核心库，图形渲染引擎
+- Dart：Dart虚拟机，提供Dart编译运行环境
+- Text：文本渲染
 
 ## 二 fluttter环境安装
 
@@ -140,6 +163,16 @@ dev_dependencies:
 不要使用pub get或pub upgrade命令来管理你的依赖关系。相反，应该使用flutter packages get或flutter packages upgrade。如果您想手动使用pub，则可以通过设置FLUTTER_ROOT环境变量来直接运行它。
 
 ## 五 一些错误贴士
+
+贴士一：  
+一定要通过flutter doctor命令来安装dart运行时环境，不要直接下载dart安装包到flutter安装目录中。   
+
+贴士二：
+首次创建flutter项目无法进入，可以关闭AS进程，在AS安装目录中的bin文件夹内找到idea.properties文件，追加如下代码：
+```
+disable.android.first.run=true    # 禁用更新的意思
+```
+
 
 出现：`Waiting for another flutter command to release the startup lock.`解决：
 ```
