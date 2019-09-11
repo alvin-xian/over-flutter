@@ -7,6 +7,7 @@
 
 **书籍**：
 - [《Flutter技术入门与实战》](https://item.jd.com/12526484.html)：可以作为入门
+- [《Flutter：从0到1构建大前端应用》](https://book.douban.com/subject/34455732/)
 - [Flutter实战](https://book.flutterchina.club/)：短小精悍的电子书
 
 **源码**：
